@@ -1,0 +1,12 @@
+{% extends 'buka.html' %}
+{%block content%}
+            <center>
+                <h1>FAKULTAS HUKUM</h1>
+            </center>
+            <h2>Gambaran Umum</h2>
+            {{title}}
+            <h2>Program Studi</h2>
+            {%for jurusan in isi %}
+            <li>{{jurusan}}</li>
+            {% endfor %}
+{% endblock %}
