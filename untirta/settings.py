@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'ft',
     'pascasarjana',
     'profil',
+   
 ]
 
 MIDDLEWARE = [

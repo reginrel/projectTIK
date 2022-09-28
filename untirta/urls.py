@@ -11,6 +11,7 @@ from pascasarjana.views import pascasarjana
 from profil.views import profil
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('faperta/', faperta),
