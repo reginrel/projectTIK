@@ -9,8 +9,7 @@ from fkip.views import fkip
 from ft.views import ft
 from pascasarjana.views import pascasarjana
 from profil.views import profil
-
-
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,5 +22,5 @@ urlpatterns = [
     path('ft/', ft),
     path('pascasarjana/', pascasarjana),
     path('profil/', profil),
-    
+    path('', views.index),
 ]
